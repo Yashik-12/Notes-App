@@ -228,13 +228,15 @@ li {
 }
 
 .addNoteBtn {
-    margin: 12px 4%;
     padding: 5px 12px;
+    margin: 12px 4%;
+    border-radius: 4px;
     background-color: #A0C764;
     color: #fff;
-    border-radius: 4px;
     font-size: 12px;
     transition: all .3s;
+    display: flex;
+    align-items: center;
 }
 
 .addNoteBtn:active,
